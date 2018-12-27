@@ -1,0 +1,92 @@
+.App {
+  text-align: center;
+}
+
+.google-logo {
+  height: 5rem;
+}
+
+.cloud-logo {
+  height: 8rem;
+}
+
+.suggestion {
+  height: 20vh;
+  margin: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.weather {
+  height: 5vh;
+  margin-left: 20rem;
+  margin-right: 20rem;
+  padding-bottom: 10rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  text-align: center;
+}
+
+.cell {
+  color: white;
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 1rem;
+}
+
+.cellWeather {
+  color: white;
+  font-size: 1rem;
+  text-align: center;
+  padding: 1rem;
+}
+
+.instagram-logo {
+  height: 5rem;
+}
+
+.youtube-logo {
+  height: 4rem;
+}
+
+.UI-logo {
+  height: 5rem;
+}
+
+.tirto-logo {
+  height: 4.5rem;
+}
+
+.gmail-logo {
+  height: 4.5rem;
+}
+
+.word {
+  color: #ffffff;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 120vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
